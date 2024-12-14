@@ -230,6 +230,24 @@ fieldset[disabled] .btn-xl.active {
     background-color: #17d0d5;
 }
 
+/*this is for short cut*/
+.container .row .modal-body a{
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+/*new*/
+.col-sm-4 .team-member #name1{
+    text-decoration: none;
+    color:black;
+}
+.col-sm-4 .team-member #name1:hover{
+    color: blue;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
